@@ -1,0 +1,30 @@
+.flats {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flat {
+  flex-basis: calc(50% - 22px);
+  margin: 10px;
+  border-radius: 9px;
+  /* border: 1px solid #00000026; */
+  box-shadow: 1px 2px 3px #80808033;
+}
+.flat:hover {
+  opacity: 0.85;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.flat-picture {
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.flat-title {
+  margin: 29px 0 10px 20px;
+  letter-spacing: 1px;
+}
