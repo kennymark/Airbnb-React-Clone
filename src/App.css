@@ -1,17 +1,18 @@
 .app {
-  display: flex;
+	display: flex;
 }
 
 .main {
-  flex-basis: 60%;
-  display: flex;
-  flex-direction: column;
+	flex-basis: 60%;
+	display: flex;
+	flex-direction: column;
 }
 
 .map {
-  flex-grow: 1;
-  height: 100vh;
-  top: 0;
-  position: sticky;
-  background: blanchedalmond;
+	flex-grow: 1;
+	height: 100vh;
+	min-height: 100%;
+	top: 0;
+	position: sticky;
+	background: blanchedalmond;
 }
