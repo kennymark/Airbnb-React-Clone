@@ -1,20 +1,20 @@
-import React, { Component } from "react";
-import "./search.css";
+import React, { Component } from 'react';
+import './search.css';
 
 class Marker extends Component {
-  state = {};
+	state = {};
 
-  handleSearch = () => {
-    this.props.findApartments(this.props.searchQuery);
-  };
+	handleSearch = (e) => {
+		this.props.findApartments(e.target.value);
+	};
 
-  render() {
-    return (
-      <div className="search">
-        <input type="text" className=".search" onChange={this.handleSearch} />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="search">
+				<input type="text" className=".search" onChange={this.handleSearch} />
+			</div>
+		);
+	}
 }
 
 export default Marker;
