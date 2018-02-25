@@ -1,4 +1,4 @@
-# React Airbnb clone
+# React Airbnb Clone
 
 This is my first ever attempt at learning react. I just wanted to get to know what all the fuss and hype about react was. React proved me and I actually found it kind of cool to work. This project was done following the coding bootcamp Le wagon's intro to react on youtube. It took a hours to write and a lot of time to figure out how to get the damn search working even tho it was very easy. 
 
