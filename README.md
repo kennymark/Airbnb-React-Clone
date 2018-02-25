@@ -22,4 +22,6 @@ Google MapView : one might need an API for this to work
 
 ![](https://static.notion-static.com/09ac5d51-ac8b-4828-be50-fb38662583ff/Screen_Shot.jpg)
 
+### Searching
+
 ![](https://static.notion-static.com/d080189f-2a60-479e-9628-283e0166bf82/Screen_Shot_1.jpg)
